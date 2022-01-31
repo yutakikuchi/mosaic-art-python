@@ -2,13 +2,23 @@
 
 ## process of execution
 
+### requirements
+
+- python version
+```
+python -V
+Python 3.7.4
+```
+- pip install
+  - `pip install -r requirement.txt`
+
 ### get images from the Metropolitan Museum
 
 - The Metropolitan Museum of Art Collection API.
   - https://metmuseum.github.io/
 
 - We have to run the script to get the sample images as below.
-  - `mkdir ./images`
+  - `mkdir <download_path>`
   - `python get_metro_images.py <download_path> <query> <max_num>`
 
 - We have to run the next script to generate the mosaic images as below.
