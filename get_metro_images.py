@@ -34,7 +34,7 @@ def download_images(save_path, max_num, object_lists):
       pass
 
 if __name__ == "__main__":
-
+  # ref : https://zenn.dev/eetann/books/2020-09-25-make-mosaic-art-python
   try:
     save_path = sys.argv[1]
     query = sys.argv[2]
