@@ -10,7 +10,7 @@ python -V
 Python 3.7.4
 ```
 - pip install
-  - `pip install -r requirement.txt`
+  - `pip install -r requirements.txt`
 
 ### get images from the Metropolitan Museum
 
