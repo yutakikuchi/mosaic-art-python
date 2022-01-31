@@ -13,7 +13,7 @@
   - `python get_metro_images.py <download_path> <query> <max_num>`
 
 - We have to run the next script to generate the mosaic images as below.
-  - `python gen_mosaic_image.py <main_photo_path> <download_path> <tile_width_size> <tile_height_size> <output_width_size> <output_height_size> <output_path>`
+  - `python gen_mosaic_image.py <main_image_path> <download_path> <tile_width_size> <tile_height_size> <output_width_size> <output_height_size> <output_path>`
 
 ## Ref.
 - https://zenn.dev/eetann/books/2020-09-25-make-mosaic-art-python
