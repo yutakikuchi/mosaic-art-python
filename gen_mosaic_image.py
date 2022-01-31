@@ -1,5 +1,3 @@
-# ref : https://gist.github.com/BilHim/77f17e2fa859a56c1d365c6e558b291f#file-mosaic-py
-
 import glob
 from PIL import Image
 from scipy import spatial
@@ -96,6 +94,7 @@ def gen_mosaic_img(main_photo_path, tile_photos_path, tile_size, output_size, ou
   
 
 if __name__ == "__main__":
+  # ref : https://gist.github.com/BilHim/77f17e2fa859a56c1d365c6e558b291f#file-mosaic-py
   try:
     main_photo_path = sys.argv[1]
     tile_photos_path = sys.argv[2]
